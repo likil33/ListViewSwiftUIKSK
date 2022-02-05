@@ -1,2 +1,0 @@
-# ListViewSwiftUIKSK
- practiceAllListViewtype
