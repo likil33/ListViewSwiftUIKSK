@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750B91CD27B016CC00FD5F8E /* VideoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B91CC27B016CC00FD5F8E /* VideoDetailsView.swift */; };
 		753244F027AE4D89009994A3 /* LIstViewSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753244EF27AE4D89009994A3 /* LIstViewSwiftUIApp.swift */; };
 		753244F227AE4D89009994A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753244F127AE4D89009994A3 /* ContentView.swift */; };
 		753244F427AE4D8A009994A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753244F327AE4D8A009994A3 /* Assets.xcassets */; };
 		753244F727AE4D8A009994A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753244F627AE4D8A009994A3 /* Preview Assets.xcassets */; };
+		75A638EA27AFA0FA000F8F7E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A638E927AFA0FA000F8F7E /* Video.swift */; };
+		75B2073A27AECB0500967B31 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2073927AECB0500967B31 /* VideoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750B91CC27B016CC00FD5F8E /* VideoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsView.swift; sourceTree = "<group>"; };
 		753244EC27AE4D89009994A3 /* LIstViewSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIstViewSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753244EF27AE4D89009994A3 /* LIstViewSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstViewSwiftUIApp.swift; sourceTree = "<group>"; };
 		753244F127AE4D89009994A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		753244F327AE4D8A009994A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		753244F627AE4D8A009994A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75A638E927AFA0FA000F8F7E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		75B2073927AECB0500967B31 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		750B91CE27B02E2500FD5F8E /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+				750B91CC27B016CC00FD5F8E /* VideoDetailsView.swift */,
+				75A638E927AFA0FA000F8F7E /* Video.swift */,
+				75B2073927AECB0500967B31 /* VideoListView.swift */,
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
 		753244E327AE4D89009994A3 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +69,7 @@
 			children = (
 				753244EF27AE4D89009994A3 /* LIstViewSwiftUIApp.swift */,
 				753244F127AE4D89009994A3 /* ContentView.swift */,
+				750B91CE27B02E2500FD5F8E /* VideoList */,
 				753244F327AE4D8A009994A3 /* Assets.xcassets */,
 				753244F527AE4D8A009994A3 /* Preview Content */,
 			);
@@ -138,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				753244F227AE4D89009994A3 /* ContentView.swift in Sources */,
+				750B91CD27B016CC00FD5F8E /* VideoDetailsView.swift in Sources */,
 				753244F027AE4D89009994A3 /* LIstViewSwiftUIApp.swift in Sources */,
+				75A638EA27AFA0FA000F8F7E /* Video.swift in Sources */,
+				75B2073A27AECB0500967B31 /* VideoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

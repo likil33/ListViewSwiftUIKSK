@@ -9,10 +9,7 @@ import SwiftUI
 
 
 
-struct Friend:Identifiable {
-    let id = UUID()
-    let name :String
-}
+
 
 //Number display
 
@@ -30,6 +27,12 @@ struct ContentView: View {
 
 //Names Display
 /*
+ 
+ struct Friend:Identifiable {
+     let id = UUID()
+     let name :String
+ }
+ 
 struct ContentView: View {
     let friends = [
         Friend(name: "santhosh"),
@@ -139,6 +142,7 @@ struct ContentView :View {
 */
 
 
+//Scroll with background color change in list
 struct ContentView:View {
     var body: some View {
         ScrollView {
