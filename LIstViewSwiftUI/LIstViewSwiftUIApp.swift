@@ -12,7 +12,8 @@ struct LIstViewSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            VideoListView()
+//            VideoListView()
+            ListCURDOperation()
         }
     }
 }

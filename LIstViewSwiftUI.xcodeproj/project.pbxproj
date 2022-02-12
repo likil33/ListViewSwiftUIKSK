@@ -14,6 +14,7 @@
 		753244F727AE4D8A009994A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753244F627AE4D8A009994A3 /* Preview Assets.xcassets */; };
 		75A638EA27AFA0FA000F8F7E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A638E927AFA0FA000F8F7E /* Video.swift */; };
 		75B2073A27AECB0500967B31 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B2073927AECB0500967B31 /* VideoListView.swift */; };
+		75D52A8627B2D50600B14830 /* ListCURDOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D52A8527B2D50600B14830 /* ListCURDOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		753244F627AE4D8A009994A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75A638E927AFA0FA000F8F7E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		75B2073927AECB0500967B31 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		75D52A8527B2D50600B14830 /* ListCURDOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCURDOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,14 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		750B91CE27B02E2500FD5F8E /* VideoList */ = {
+		750B91CE27B02E2500FD5F8E /* PracticeVideoList1 */ = {
 			isa = PBXGroup;
 			children = (
 				750B91CC27B016CC00FD5F8E /* VideoDetailsView.swift */,
 				75A638E927AFA0FA000F8F7E /* Video.swift */,
 				75B2073927AECB0500967B31 /* VideoListView.swift */,
 			);
-			path = VideoList;
+			path = PracticeVideoList1;
 			sourceTree = "<group>";
 		};
 		753244E327AE4D89009994A3 = {
@@ -69,7 +71,8 @@
 			children = (
 				753244EF27AE4D89009994A3 /* LIstViewSwiftUIApp.swift */,
 				753244F127AE4D89009994A3 /* ContentView.swift */,
-				750B91CE27B02E2500FD5F8E /* VideoList */,
+				75D52A8427B2D4BA00B14830 /* PracticeVideoList2 */,
+				750B91CE27B02E2500FD5F8E /* PracticeVideoList1 */,
 				753244F327AE4D8A009994A3 /* Assets.xcassets */,
 				753244F527AE4D8A009994A3 /* Preview Content */,
 			);
@@ -82,6 +85,14 @@
 				753244F627AE4D8A009994A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75D52A8427B2D4BA00B14830 /* PracticeVideoList2 */ = {
+			isa = PBXGroup;
+			children = (
+				75D52A8527B2D50600B14830 /* ListCURDOperation.swift */,
+			);
+			path = PracticeVideoList2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				753244F227AE4D89009994A3 /* ContentView.swift in Sources */,
+				75D52A8627B2D50600B14830 /* ListCURDOperation.swift in Sources */,
 				750B91CD27B016CC00FD5F8E /* VideoDetailsView.swift in Sources */,
 				753244F027AE4D89009994A3 /* LIstViewSwiftUIApp.swift in Sources */,
 				75A638EA27AFA0FA000F8F7E /* Video.swift in Sources */,
