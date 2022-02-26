@@ -12,8 +12,16 @@ struct LIstViewSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-//            VideoListView()
-            ListCURDOperation()
+           //VideoListView()
+            //ListCURDOperation()
+           //PullToRefresh()
+            //FilterTextUsingSearch()
+            //ClickableRowList()
+            //AutoScrollToRowInList()
+//            MultipleSelection()
+           // CollapsibleList()
+            //InfinitScrolling()
+            CheckBoxList()
         }
     }
 }

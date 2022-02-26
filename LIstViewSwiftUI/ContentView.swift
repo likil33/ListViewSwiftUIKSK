@@ -144,21 +144,31 @@ struct ContentView :View {
 
 //Scroll with background color change in list
 struct ContentView:View {
+    
+    @State private var selectedIndex:Int?
+    
     var body: some View {
         ScrollView {
             LazyVStack {
-                ForEach(1...20, id:\.self) { index in
+                ForEach(1...5, id:\.self) { index in
                     HStack {
                         VStack(alignment: .leading) {
                             Text("\(index)")
                             Divider()
                         }
                         Spacer()
-                    }
+                    }.onTapGesture(perform: {
+                        selectedIndex = index
+                    })
                 }
             }
             .padding()
             .background(Color.green)
+            
+            selectedIndex.map {
+                Text("\($0)")
+                    .font(.largeTitle)
+            }
         }.background(Color.red)
     }
 }
